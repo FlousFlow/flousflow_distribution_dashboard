@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Distribution Performance Dashboard',
-    'version': '19.0.1.0.0',
+    'version': '20.0.1.0.0',
     'category': 'Sales/Distribution',
     'summary': 'Management dashboard and analytics for distribution routes, '
                'visits, employees, areas and customers (read-only)',
@@ -46,7 +46,14 @@ touching the dashboard core.
             'flousflow_distribution_dashboard/static/src/xml/dashboard_templates.xml',
         ],
     },
-    'installable': True,
+        'images': [
+        'static/description/index.html',
+        'static/description/thumbnail.png',
+        'static/description/cover.png',
+        'static/description/banner.png',
+        'static/description/icon.png',
+    ],
+'installable': True,
     'application': False,
     'auto_install': False,
 }
